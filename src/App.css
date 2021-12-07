@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+}
+.App {
+	text-align: center;
+	background: rgb(7, 63, 109);
+	color: white;
+}
+
+.crawler__container {
+	padding: 5%;
+}
+
+.creawler__container__title {
+	text-transform: uppercase;
+}
+
+.crawler__container__form {
+	padding: 10px;
+}
+
+input {
+	padding: 10px;
+	background: white;
+	border: 1px solid rgb(255, 255, 255);
+	width: 30%;
+}
+
+button {
+	display: block;
+	background: white;
+	color: black;
+	text-transform: uppercase;
+	margin: 2% auto;
+	font-weight: bold;
+	border: none;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.crawler__container__results {
+	text-align: left;
+}
+
+table {
+	width: 100%;
+	padding: 10px;
+}
+
+thead {
+	font-weight: bold;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+thead td {
+	font-weight: bold;
+	border-top: none;
+	border-bottom: 3px solid white;
+}
+
+tr {
+	border-bottom: 3px solid white;
+}
+
+td {
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	width: 25%;
+}
+
+td:first-child {
+	width: 50%;
+}
+
+td:last-child {
+	border-right: none;
+}
